@@ -934,7 +934,7 @@ const handleNavClick = (e, targetId) => {
         {/* translucent background image */}
         <div
           className="pointer-events-none absolute inset-0 bg-center bg-cover opacity-60"
-          style={{ backgroundImage: "url('/vision.jpg')", backgroundPosition: "-70px -90px" }}
+          style={{ backgroundImage: "url('vision.jpg')", backgroundPosition: "-70px -90px" }}
           aria-hidden
         />
         {/* optional soft overlay to keep text readable*/}
@@ -975,7 +975,7 @@ const handleNavClick = (e, targetId) => {
           <svg viewBox="0 0 600 400" className="w-full h-full object-cover">
               
               <image
-                href="/contact2.png"     
+                href="contact2.png"     
                 x="-50"
                 y="0"
                 width="600"
