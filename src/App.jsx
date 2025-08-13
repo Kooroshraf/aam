@@ -454,7 +454,7 @@ function ProjectModal({ project, onClose }) {
           <div className="grow">
             <h3 className="text-2xl font-semibold text-teal-800">{project.title}</h3>
           </div>
-          <button className="rounded-full border px-3 py-1 text-sm hover:bg-slate-50" onClick={onClose}>
+          <button className="rounded-full border px-3 py-1 text-sm hover:bg-slate-50 text-slate-900" onClick={onClose}>
             Close
           </button>
         </div>
