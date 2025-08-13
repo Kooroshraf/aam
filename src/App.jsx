@@ -676,7 +676,7 @@ export default function App() {
   const { path, push } = useHashRoute();
 
   // ===== Core team subset for the home page (first 5) (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) =====
-  const core = useMemo(() => MEMBERS.slice(0, 5), []);
+  const core = useMemo(() => MEMBERS.slice(0, 4), []);
   const [showAllInline, setShowAllInline] = useState(false);
   const [active, setActive] = useState(null);
   const [openProjMenu, setOpenProjMenu] = useState(false); // <-- moved ABOVE route returns
