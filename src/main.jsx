@@ -15,6 +15,8 @@ import Team from "./pages/Team.jsx";
 const router = createHashRouter([
   { path: "/", element: <App /> },
   { path: "/team", element: <Team /> },
+  { path: "/projects", element: <Projects /> }, 
+  { path: "/members", element: <Members /> }, 
 ]);
 
 createRoot(document.getElementById("root")).render(
