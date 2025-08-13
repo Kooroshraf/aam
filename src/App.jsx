@@ -675,7 +675,7 @@ export default function App() {
     const initialId = parts[2]; 
     return <ProjectsPage push={push} initialId={initialId} />;
   }
-  if (path.startsWith("members")) {
+  if (path.startsWith("/members")) {
     return <MembersPage push={push} />;
   }
 
@@ -773,7 +773,7 @@ const handleNavClick = (e, targetId) => {
 
             <a href="#vision" className="hover:text-teal-700" onClick={(e) => handleNavClick(e, "vision")}>Vision</a>
             <a href="#contact" className="hover:text-teal-700" onClick={(e) => handleNavClick(e, "contact")}>Contact</a>
-            <a href="#members" className="hover:text-teal-700">Members</a>
+            <a href="#/members" className="hover:text-teal-700">Members</a>
           </nav>
           <a href="#contact" className="hidden md:inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm hover:bg-slate-50" onClick={(e) => handleNavClick(e, "contact")}>contact us</a>
         </div>
@@ -886,7 +886,7 @@ const handleNavClick = (e, targetId) => {
             </div>
           )}
           <div className="mt-8 text-center flex items-center justify-center gap-3 flex-wrap">
-            <button onClick={() => push('members')}
+            <button onClick={() => push('/members')}
             className="inline-flex rounded-full border-2 border-teal-600 px-6 py-3 text-teal-700 font-medium hover:bg-teal-600 hover:text-white transition">
             More Team Members
             </button>
