@@ -70,7 +70,7 @@ const MEMBERS = [
   },
   {
     id: "daniel-findley",
-    name: "Daniel Findley, Ph.D.",
+    name: "Daniel Findley",
     role: "Associate Director — ITRE, NC State University",
     email: "daniel_findley@ncsu.edu",
     affiliation: "Institute for Transportation Research and Education (ITRE)",
@@ -196,7 +196,7 @@ const MEMBERS = [
   },
   {
     id: "kuldeep-rawat",
-    name: "Kuldeep S. Rawat, Ph.D.",
+    name: "Kuldeep S. Rawat",
     role: "Thorpe Endowed Professor & Dean — ECSU; Director, Aviation Science",
     email: "ksrawat@ecsu.edu",
     affiliation: "Elizabeth City State University",
@@ -510,8 +510,22 @@ function ProjectModal({ project, onClose }) {
 
 // ---------- Roles Matrix (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) ----------
 function ProjectRolesMatrix({ onMemberClick }) {
-  const norm = (s) =>
-    s.toLowerCase().replace(/\(.*?\)/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  // Use FIRST + LAST name key; ignore titles, initials, and parentheticals
+  const norm = (s) => {
+    if (!s) return "";
+    // lower, remove things in parentheses, and common titles (dr, mr, prof)
+    s = s
+      .toLowerCase()
+      .replace(/\(.*?\)/g, " ")
+      .replace(/\b(dr|mr|mrs|ms|prof|professor)\.?/g, " ");
+    // keep only letters, split to tokens
+    const tokens = s.replace(/[^a-z]+/g, " ").trim().split(/\s+/);
+    if (!tokens.length) return "";
+    const first = tokens[0];
+    const last = tokens[tokens.length - 1];
+    return `${first} ${last}`;
+  };
+
 
   const nameIndex = new Map(MEMBERS.map((m) => [norm(m.name), m])); 
 
