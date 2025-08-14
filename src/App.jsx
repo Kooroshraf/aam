@@ -250,7 +250,7 @@ const MEMBERS = [
   {
     id: "reza-ahmari",
     name: "Reza Ahmari",
-    role: "Software Developer",
+    role: "Software Developer | Website Owner",
     email: "Rahmari@aggies.ncat.edu",
     affiliation: "North Carolina A&T State University",
     bio: "Mr. Ahmari is a Ph.D. student in Computer Science at North Carolina A&T State University, recently graduated with an M.S. in the same field. He conducts his research at the Autonomous Control and Information Technology (ACIT) Institute, specializing in AI-driven navigation and perception for autonomous aerial and ground vehicles.",
