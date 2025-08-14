@@ -25,7 +25,7 @@ const PROJECT_ROLES = {
   "chandra-bhushan-asthana": { "4": "Member" },
   "elton-stone": { "4": "Member" },
   "vahid-hemmati": { "3": "Member" },
-  "parham-mohsenzade-kebria": { "3": "Member" },
+  "parham-kebria": { "3": "Member" },
   "reza-ahmari": { "3": "Member" }
 };
 
