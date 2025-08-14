@@ -228,8 +228,8 @@ const MEMBERS = [
     photo: "members/steve.jpg"
   },
   {
-    id: "parham-mohsenzade-kebria",
-    name: "Parham Mohsenzade Kebria",
+    id: "parham-kebria",
+    name: "Parham Kebria",
     role: "Post Doc Research Associate",
     email: "pmkebria@ncat.edu",
     affiliation: "North Carolina A&T State University",
