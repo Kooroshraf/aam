@@ -227,6 +227,36 @@ const MEMBERS = [
     links: [{ label: "Website", href: "https://sites.google.com/ncsu.edu/stevenbert/home" }],
     photo: "members/steve.jpg"
   },
+  {
+    id: "parham-mohsenzade-kebria",
+    name: "Parham Mohsenzade Kebria",
+    role: "Post Doc Research Associate",
+    email: "pmkebria@ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio:"Dr. Kebria is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
+    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=J18BkakAAAAJ" }],
+    photo: "members/parham.png"
+  },
+  {
+    id: "vahid-hemmati",
+    name: "Vahid Hemmati",
+    role: "Post Doc Research Associate",
+    email: "vhemmati@ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio: "Dr. Hemmati is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
+    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=AVL4A30AAAAJ" }],
+    photo: "members/vahid.jpg"
+  },
+  {
+    id: "reza-ahmari",
+    name: "Reza Ahmari",
+    role: "Software Developer",
+    email: "Rahmari@aggies.ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio: "Mr. Ahmari is a Ph.D. student in Computer Science at North Carolina A&T State University, recently graduated with an M.S. in the same field. He conducts his research at the Autonomous Control and Information Technology (ACIT) Institute, specializing in AI-driven navigation and perception for autonomous aerial and ground vehicles.",
+    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=b_gFFUcAAAAJ" }],
+    photo: "members/reza.jpg"
+  },
 ];
 
 // ===================== PROJECTS DATA (for routes & modal) =====================
@@ -287,7 +317,7 @@ const PROJECTS = [
       "Validated framework for navigation safety, energy demands, operational risk, and performance under failures for regional passenger transport.",
     bullets: ["Use cases, simulation, and risk models", "Inputs to regulatory and operational standards"],
     leads: ["Abdollah Homaifar (NCAT)", "Farhan Gandhi (NCSU)"],
-    teamMembers: [],
+    teamMembers: ["Vahid Hemmati (NCAT)", "Parham Mohsenzade Kebria"],
     tasks: [
       "Kickoff meeting",
       "Literature review",
