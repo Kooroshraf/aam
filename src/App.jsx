@@ -317,7 +317,7 @@ const PROJECTS = [
       "Validated framework for navigation safety, energy demands, operational risk, and performance under failures for regional passenger transport.",
     bullets: ["Use cases, simulation, and risk models", "Inputs to regulatory and operational standards"],
     leads: ["Abdollah Homaifar (NCAT)", "Farhan Gandhi (NCSU)"],
-    teamMembers: ["Vahid Hemmati (NCAT)", "Parham Mohsenzade Kebria"],
+    teamMembers: ["Vahid Hemmati (NCAT)", "Parham Kebria"],
     tasks: [
       "Kickoff meeting",
       "Literature review",
