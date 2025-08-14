@@ -228,16 +228,6 @@ const MEMBERS = [
     photo: "members/steve.jpg"
   },
   {
-    id: "parham-kebria",
-    name: "Parham Kebria",
-    role: "Post Doc Research Associate",
-    email: "pmkebria@ncat.edu",
-    affiliation: "North Carolina A&T State University",
-    bio:"Dr. Kebria is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
-    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=J18BkakAAAAJ" }],
-    photo: "members/parham.png"
-  },
-  {
     id: "vahid-hemmati",
     name: "Vahid Hemmati",
     role: "Post Doc Research Associate",
@@ -246,6 +236,16 @@ const MEMBERS = [
     bio: "Dr. Hemmati is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
     links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=AVL4A30AAAAJ" }],
     photo: "members/vahid.jpg"
+  },
+  {
+    id: "parham-kebria",
+    name: "Parham Kebria",
+    role: "Post Doc Research Associate",
+    email: "pmkebria@ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio:"Dr. Kebria is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
+    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=J18BkakAAAAJ" }],
+    photo: "members/parham.png"
   },
   {
     id: "reza-ahmari",
