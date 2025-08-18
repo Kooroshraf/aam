@@ -127,49 +127,18 @@ const MEMBERS = [
     photo: "members/shoaib.jpg"
   },
   {
-    id: "vahid-hemmati",
-    name: "Vahid Hemmati",
-    role: "Post Doc Research Associate",
-    email: "vhemmati@ncat.edu",
-    affiliation: "North Carolina A&T State University",
-    bio: "Dr. Hemmati is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
-    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=AVL4A30AAAAJ" }],
-    photo: "members/vahid.jpg"
-  },
-  {
-    id: "parham-kebria",
-    name: "Parham Kebria",
-    role: "Post Doc Research Associate",
-    email: "pmkebria@ncat.edu",
-    affiliation: "North Carolina A&T State University",
-    bio:"Dr. Kebria is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
-    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=J18BkakAAAAJ" }],
-    photo: "members/parham.png"
-  },
-  {
-    id: "rongfang-rachel-liu",
-    name: "Rongfang (Rachel) Liu",
-    role: "UPS Endowed Professor; Director of Transportation Institute — NC A&T",
-    email: "rrliu@ncat.edu",
-    affiliation: "Transportation Institute, NC A&T State University",
-    bio:
-      "Dr. Liu brings expertise in intermodal transportation planning/engineering, automated transportation, and supply chain management, with leadership across consulting, academia, and government, and extensive TRB service. She will co-lead community outreach and workforce development for the AAM CoE.",
-    links: [],
-    photo: "members/rongfang.jpg"
-  },
-  {
-    id: "scott-bradshaw",
-    name: "Scott D. Bradshaw",
-    role: "Professor of Psychology — Elizabeth City State University",
-    email: "sdbradshaw@ecsu.edu",
+    id: "chandra-bhushan-asthana",
+    name: "Chandra Bhushan Asthana",
+    role: "Associate Professor — ECSU (Program Coordinator, Unmanned Aircraft Systems)",
+    email: "cbasthana@ecsu.edu",
     affiliation: "Elizabeth City State University",
     bio:
-      "Dr. Bradshaw provides project evaluation and behavioral science expertise. He has conducted program evaluations with on- and off-campus partners, with funders including NIH (MARC and U-RISE), NASA (MUREP), SAS, and NCDOT. He was Co-PI of the HBCU Health Equity Data Consortium’s COVID-19 impact project at ECSU funded by NC DHHS. His current research examines climate change and human behavior, with emphasis on environmental effects on health.",
+      "Dr. Asthana has industry and academic experience with Air India, DRDO (Hyderabad), CAE (Canada), Lockheed Martin (Netherlands), and teaching at McGill and Concordia. Research interests include aviation, aerodynamics, control system design, modeling, simulation, and UAVs.",
     links: [
-      { label: "ORCID", href: "https://orcid.org/0000-0002-7368-3637" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/scott-bradshaw-88250113" },
+      { label: "Google Scholar", href: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=W-72tBcAAAAJ" },
+      { label: "ORCID", href: "https://orcid.org/0000-0001-5090-230X" },
     ],
-    photo: "members/Bradshaw.png"
+    photo: "members/chandra-bhushan.jpg"
   },
   {
     id: "christopher-cunningham",
@@ -222,19 +191,50 @@ const MEMBERS = [
     ],
     photo: "members/kevin.jpg"
   },
+   {
+    id: "parham-kebria",
+    name: "Parham Kebria",
+    role: "Post Doc Research Associate",
+    email: "pmkebria@ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio:"Dr. Kebria is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
+    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=J18BkakAAAAJ" }],
+    photo: "members/parham.png"
+  },
   {
-    id: "chandra-bhushan-asthana",
-    name: "Chandra Bhushan Asthana",
-    role: "Associate Professor — ECSU (Program Coordinator, Unmanned Aircraft Systems)",
-    email: "cbasthana@ecsu.edu",
+    id: "vahid-hemmati",
+    name: "Vahid Hemmati",
+    role: "Post Doc Research Associate",
+    email: "vhemmati@ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio: "Dr. Hemmati is a Postdoctoral Researcher at the Autonomous Control and Information Technology (ACIT) Institute, North Carolina A&T State University, working on NASA’s University Leadership Initiative to advance autonomous aerial and ground vehicles through sensor fusion, AI, and control systems.",
+    links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=AVL4A30AAAAJ" }],
+    photo: "members/vahid.jpg"
+  },
+  {
+    id: "rongfang-rachel-liu",
+    name: "Rongfang (Rachel) Liu",
+    role: "UPS Endowed Professor; Director of Transportation Institute — NC A&T",
+    email: "rrliu@ncat.edu",
+    affiliation: "Transportation Institute, NC A&T State University",
+    bio:
+      "Dr. Liu brings expertise in intermodal transportation planning/engineering, automated transportation, and supply chain management, with leadership across consulting, academia, and government, and extensive TRB service. She will co-lead community outreach and workforce development for the AAM CoE.",
+    links: [],
+    photo: "members/rongfang.jpg"
+  },
+  {
+    id: "scott-bradshaw",
+    name: "Scott D. Bradshaw",
+    role: "Professor of Psychology — Elizabeth City State University",
+    email: "sdbradshaw@ecsu.edu",
     affiliation: "Elizabeth City State University",
     bio:
-      "Dr. Asthana has industry and academic experience with Air India, DRDO (Hyderabad), CAE (Canada), Lockheed Martin (Netherlands), and teaching at McGill and Concordia. Research interests include aviation, aerodynamics, control system design, modeling, simulation, and UAVs.",
+      "Dr. Bradshaw provides project evaluation and behavioral science expertise. He has conducted program evaluations with on- and off-campus partners, with funders including NIH (MARC and U-RISE), NASA (MUREP), SAS, and NCDOT. He was Co-PI of the HBCU Health Equity Data Consortium’s COVID-19 impact project at ECSU funded by NC DHHS. His current research examines climate change and human behavior, with emphasis on environmental effects on health.",
     links: [
-      { label: "Google Scholar", href: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=W-72tBcAAAAJ" },
-      { label: "ORCID", href: "https://orcid.org/0000-0001-5090-230X" },
+      { label: "ORCID", href: "https://orcid.org/0000-0002-7368-3637" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/scott-bradshaw-88250113" },
     ],
-    photo: "members/chandra-bhushan.jpg"
+    photo: "members/Bradshaw.png"
   },
   {
     id: "steve-bert",
