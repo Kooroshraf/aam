@@ -94,6 +94,39 @@ const MEMBERS = [
     photo: "members/evan.jpg"
   },
   {
+    id: "farhan-gandhi",
+    name: "Farhan Gandhi",
+    role:
+      "Dr. Hassan A Hassan Distinguished Professor of Aerospace Engineering — NC State University",
+    email: "fsgandhi@ncsu.edu",
+    affiliation: "Mechanical and Aerospace Engineering, NC State University",
+    bio:
+      "Prof. Gandhi is a Fellow of AIAA, RAeS, and VFS, and a leading expert on VTOL aeromechanics and eVTOL platforms. He held a Joint Faculty Appointment with the US Army Research Lab (2018–2021). Over 30 years he has published 370+ papers, advised 31 PhD students, delivered numerous keynotes, and led research spanning interactional aerodynamics, aeroacoustics, controls and flying qualities, fault identification/tolerance, vibration reduction, configuration design, multi-fidelity modeling/digital twins, and flight testing for multi-rotor eVTOLs.",
+    photo: "members/farhan.jpg"
+  },
+  {
+    id: "kuldeep-rawat",
+    name: "Kuldeep S. Rawat",
+    role: "Thorpe Endowed Professor & Dean — ECSU; Director, Aviation Science",
+    email: "ksrawat@ecsu.edu",
+    affiliation: "Elizabeth City State University",
+    bio:
+      "Dr. Rawat leads ECSU’s flagship Aviation Science program, managing aircraft/facilities acquisition and strategic growth. Interests: data science, ML, UAS applications, AI/ML in higher education, workforce development, and educational technologies. Co-PI on Project 2 and 4; institutional liaison.",
+    links: [{ label: "LinkedIn", href: "https://www.linkedin.com/in/kuldeeprawat3010239" }],
+    photo: "members/rawat.jpg"
+  },
+  {
+    id: "shoaib-samandar",
+    name: "Shoaib Samandar",
+    role: "Senior Research Scholar & Adjunct Assistant Professor — ITRE/CCEE, NC State",
+    email: "smsamand@ncsu.edu",
+    affiliation: "ITRE and Department of CCEE, NC State University",
+    bio:
+      "Dr. Samandar specializes in connected/automated vehicles, traffic operations, ITS, and simulation-based analysis. He holds a Ph.D. in Civil Engineering from NC State and serves as Adjunct Assistant Professor in CCEE.",
+    links: [],
+    photo: "members/shoaib.jpg"
+  },
+  {
     id: "vahid-hemmati",
     name: "Vahid Hemmati",
     role: "Post Doc Research Associate",
@@ -190,17 +223,6 @@ const MEMBERS = [
     photo: "members/kevin.jpg"
   },
   {
-    id: "farhan-gandhi",
-    name: "Farhan Gandhi",
-    role:
-      "Dr. Hassan A Hassan Distinguished Professor of Aerospace Engineering — NC State University",
-    email: "fsgandhi@ncsu.edu",
-    affiliation: "Mechanical and Aerospace Engineering, NC State University",
-    bio:
-      "Prof. Gandhi is a Fellow of AIAA, RAeS, and VFS, and a leading expert on VTOL aeromechanics and eVTOL platforms. He held a Joint Faculty Appointment with the US Army Research Lab (2018–2021). Over 30 years he has published 370+ papers, advised 31 PhD students, delivered numerous keynotes, and led research spanning interactional aerodynamics, aeroacoustics, controls and flying qualities, fault identification/tolerance, vibration reduction, configuration design, multi-fidelity modeling/digital twins, and flight testing for multi-rotor eVTOLs.",
-    photo: "members/farhan.jpg"
-  },
-  {
     id: "chandra-bhushan-asthana",
     name: "Chandra Bhushan Asthana",
     role: "Associate Professor — ECSU (Program Coordinator, Unmanned Aircraft Systems)",
@@ -213,28 +235,6 @@ const MEMBERS = [
       { label: "ORCID", href: "https://orcid.org/0000-0001-5090-230X" },
     ],
     photo: "members/chandra-bhushan.jpg"
-  },
-  {
-    id: "kuldeep-rawat",
-    name: "Kuldeep S. Rawat",
-    role: "Thorpe Endowed Professor & Dean — ECSU; Director, Aviation Science",
-    email: "ksrawat@ecsu.edu",
-    affiliation: "Elizabeth City State University",
-    bio:
-      "Dr. Rawat leads ECSU’s flagship Aviation Science program, managing aircraft/facilities acquisition and strategic growth. Interests: data science, ML, UAS applications, AI/ML in higher education, workforce development, and educational technologies. Co-PI on Project 2 and 4; institutional liaison.",
-    links: [{ label: "LinkedIn", href: "https://www.linkedin.com/in/kuldeeprawat3010239" }],
-    photo: "members/rawat.jpg"
-  },
-  {
-    id: "shoaib-samandar",
-    name: "Shoaib Samandar",
-    role: "Senior Research Scholar & Adjunct Assistant Professor — ITRE/CCEE, NC State",
-    email: "smsamand@ncsu.edu",
-    affiliation: "ITRE and Department of CCEE, NC State University",
-    bio:
-      "Dr. Samandar specializes in connected/automated vehicles, traffic operations, ITS, and simulation-based analysis. He holds a Ph.D. in Civil Engineering from NC State and serves as Adjunct Assistant Professor in CCEE.",
-    links: [],
-    photo: "members/shoaib.jpg"
   },
   {
     id: "steve-bert",
