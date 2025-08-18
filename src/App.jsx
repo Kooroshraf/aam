@@ -260,6 +260,16 @@ const MEMBERS = [
     links: [{ label: "Google Scholar", href: "https://scholar.google.com/citations?hl=en&user=b_gFFUcAAAAJ" }],
     photo: "members/reza.jpg"
   },
+{
+    id: "saghir-ali",
+    name: "Saghir Ali",
+    role: "Acting Program Manager, NCDOT Advanced Air Mobility (AAM) and Unmanned Aircraft Systems (UAS) and Secure and Safe Assured Autonomy",
+    email: "sali@ncat.edu",
+    affiliation: "North Carolina A&T State University",
+    bio: "Acting Program Manager, NCDOT Advanced Air Mobility (AAM) and Unmanned Aircraft Systems (UAS) and Secure and Safe Assured Autonomy Department of Electrical and Computer Engineering",
+    photo: "members/saghir.jpg"
+  },
+  
 ];
 
 // ===================== PROJECTS DATA (for routes & modal) =====================
@@ -320,7 +330,7 @@ const PROJECTS = [
       "Validated framework for navigation safety, energy demands, operational risk, and performance under failures for regional passenger transport.",
     bullets: ["Use cases, simulation, and risk models", "Inputs to regulatory and operational standards"],
     leads: ["Abdollah Homaifar (NCAT)", "Farhan Gandhi (NCSU)"],
-    teamMembers: ["Vahid Hemmati (NCAT)", "Parham Kebria"],
+    teamMembers: ["Vahid Hemmati (NCAT)", "Parham Kebria", "Saghir Ali (Project Manager)"],
     tasks: [
       "Kickoff meeting",
       "Literature review",
