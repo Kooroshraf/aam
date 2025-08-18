@@ -103,7 +103,7 @@ const MEMBERS = [
     bio:
       "Prof. Gandhi is a Fellow of AIAA, RAeS, and VFS, and a leading expert on VTOL aeromechanics and eVTOL platforms. He held a Joint Faculty Appointment with the US Army Research Lab (2018–2021). Over 30 years he has published 370+ papers, advised 31 PhD students, delivered numerous keynotes, and led research spanning interactional aerodynamics, aeroacoustics, controls and flying qualities, fault identification/tolerance, vibration reduction, configuration design, multi-fidelity modeling/digital twins, and flight testing for multi-rotor eVTOLs.",
      links: [
-      { label: "Website", href: "https://github.com/Kooroshraf/aam/edit/main/src/App.jsx" },
+      { label: "Website", href: "https://mae.ncsu.edu/people/farhan-gandhi/" },
     ],
     photo: "members/farhan.jpg"
   },
