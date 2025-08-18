@@ -26,7 +26,8 @@ const PROJECT_ROLES = {
   "elton-stone": { "4": "Member" },
   "vahid-hemmati": { "3": "Member" },
   "parham-kebria": { "3": "Member" },
-  "reza-ahmari": { "3": "Member" }
+  "reza-ahmari": { "3": "Member" },
+  "saghir-ali": { "3": "Member" },
 };
 
 function RolePill({ role }) {
