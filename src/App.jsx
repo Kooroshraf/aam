@@ -918,7 +918,7 @@ const handleNavClick = (e, targetId) => {
           </div>
           {showAllInline && (
             <div className="mt-10 grid gap-10 md:grid-cols-3">
-              {MEMBERS.slice(5, 7).map((m) => (
+              {MEMBERS.slice(5, 9).map((m) => (
                 <TeamCard
                   key={m.id}
                   name={m.name}
