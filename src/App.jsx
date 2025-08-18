@@ -842,7 +842,7 @@ const handleNavClick = (e, targetId) => {
             </div>
           </div>
           <div className="relative">
-            <img src="logo.png" onError={(e)=>e.currentTarget.src='logo.png'} alt="NCDOT AAM Logo" className="w-full h-auto object-contain" />
+            <img src="logo2.png" onError={(e)=>e.currentTarget.src='logo2.png'} alt="NCDOT AAM Logo" className="w-full h-auto object-contain" />
           </div>
         </div>
       </section>
