@@ -1032,10 +1032,10 @@ const handleNavClick = (e, targetId) => {
           <div>
             <h2 className="text-5xl font-semibold text-teal-300">Let's work together!</h2>
             <p className="mt-4 text-slate-200">Send us your questions!</p>
-            <a href="mailto:Rahmari@aggies.ncat.edu" className="mt-6 inline-flex rounded-full border-2 border-teal-400 px-6 py-3 text-teal-200 font-medium hover:bg-white hover:text-teal-700 transition">contact us</a>
+            <a href="mailto:Homaifar@ncat.edu" className="mt-6 inline-flex rounded-full border-2 border-teal-400 px-6 py-3 text-teal-200 font-medium hover:bg-white hover:text-teal-700 transition">contact us</a>
             <div className="mt-10 space-y-6">
-              <div><h4 className="text-sm tracking-widest text-teal-300">PHONE</h4><p className="text-lg mt-1">336-493-5421</p></div>
-              <div><h4 className="text-sm tracking-widest text-teal-300">EMAIL</h4><p className="text-lg mt-1">Rahmari@aggies.ncat.edu</p></div>
+              <div><h4 className="text-sm tracking-widest text-teal-300">PHONE</h4><p className="text-lg mt-1">Cell:336-549-1518 | Office: 336-285-3709</p></div>
+              <div><h4 className="text-sm tracking-widest text-teal-300">EMAIL</h4><p className="text-lg mt-1">Homaifar@ncat.edu</p></div>
             <div>
               <h4 className="text-sm tracking-widest text-teal-300">REACH US AT</h4>
               <a
