@@ -1014,9 +1014,9 @@ const handleNavClick = (e, targetId) => {
 
       {/* Transparent Box */}
       <div className="rounded-3xl bg-[#0E2A36]/80 text-white p-8 border border-white/20">
-        <h3 className="text-3xl font-semibold mb-6">Location & Scope</h3>
+        <h3 className="text-3xl font-semibold mb-6">Mission Summary</h3>
         <p className="text-lg text-slate-200 leading-8">
-          North Carolina, USA — statewide urban & rural integration of AAM and UAS.
+          This project seeks to establish a Center of Excellence that advances the integration of Advanced Air Mobility (AAM) and Unmanned Aircraft Systems (UAS) into future transportation systems. The mission is to create innovative frameworks, technologies, and strategies that enhance mobility, safety, and resilience across urban, regional, and rural environments. By addressing simulation, emergency response, eVTOL operations, infrastructure, and workforce needs. The effort will provide transformative solutions that improve efficiency, sustainability, and equity in transportation while shaping a foundation for long-term economic growth and technological leadership.
         </p>
         <div className="mt-6 inline-flex items-center gap-3 rounded-full bg-white/10 px-4 py-2">
           <span className="i-lucide-map-pin" />
