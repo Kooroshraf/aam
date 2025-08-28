@@ -765,7 +765,7 @@ const handleNavClick = (e, targetId) => {
         <div className="mx-auto max-w-7xl px-6 py-3 flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="logo-navbar.png" 
+              src="logo-navbar2.PNG" 
               alt="NCDOT Center of Excellence – Advanced Air Mobility"
               className="h-16 w-auto object-contain"
             />
