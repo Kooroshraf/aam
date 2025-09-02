@@ -380,6 +380,50 @@ const PROJECTS = [
   },
 ];
 
+// ===================== NEWS DATA (for routes & modal) (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) =====================
+const NEWS = [
+  {
+    id: "1",
+    title: "NC AAM/ UAS Center Announces Kickoff",
+    date: "2025-08-15",
+    summary:
+      "The UTCoE–AAM & UAS launched a statewide collaboration among NC A&T, NC State, ECSU, and NCDOT.",
+    content: `
+The Center officially kicked off with partners across North Carolina to advance Advanced Air Mobility (AAM) and Unmanned Aircraft Systems (UAS). The program focuses on multimodal integration, emergency response, safe eVTOL operations, and infrastructure/workforce development.
+
+Highlights:
+• Multi-campus research collaboration
+• Early stakeholder engagement
+• Foundations for statewide test & evaluation
+    `.trim(),
+    link: "https://example.com/press/kickoff",
+    image: "/news/kickoff.jpg", // optional (place in /public/news)
+  },
+  {
+    id: "2",
+    title: "Demonstration: Drone Medical Delivery",
+    date: "2025-09-05",
+    summary:
+      "A field demo explored AED/medical kit delivery times vs. ground response in rural corridors.",
+    content: `
+Teams from NC State and ECSU demonstrated UAS medical delivery to evaluate response-time improvements in rural areas. Metrics included dispatch-to-arrival time, airspace coordination, and handoff protocols with EMS.
+    `.trim(),
+    link: "https://example.com/news/med-demo",
+    image: "/news/med-demo.jpg",
+  },
+  {
+    id: "3",
+    title: "Workshop: eVTOL Safety & Energy Modeling",
+    date: "2025-10-02",
+    summary:
+      "Researchers met with industry to align on safe navigation and energy demand models for regional eVTOL use cases.",
+    content: `
+The workshop covered model assumptions, datasets, and validation plans for safe & reliable eVTOL operations—feeding into regulatory and operational standards.
+    `.trim(),
+    link: "https://example.com/events/evtol-workshop",
+    image: "/news/workshop.jpg",
+  },
+];
 
 // ==== UI: Team card & modal use (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) ====
 function TeamCard({ name, role, photo, onClick }) {
@@ -550,6 +594,138 @@ function ProjectModal({ project, onClose }) {
     </div>
   );
 }
+
+// ===================== NEWS UI (grid + modal + route) (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) =====================
+function NewsCard({ item, onOpen }) {
+  return (
+    <div className="rounded-3xl bg-white/10 border border-white/20 p-6">
+      {item.image ? (
+        <img
+          src={item.image}
+          alt={item.title}
+          className="w-full h-40 object-cover rounded-2xl mb-4"
+          onError={(e) => (e.currentTarget.style.display = "none")}
+        />
+      ) : null}
+      <p className="text-xs uppercase tracking-widest text-teal-200/80">
+        {new Date(item.date).toLocaleDateString()}
+      </p>
+      <h3 className="mt-1 text-2xl font-semibold text-teal-200">{item.title}</h3>
+      <p className="mt-3 text-slate-200">{item.summary}</p>
+      <button
+        className="mt-5 inline-flex rounded-full border-2 border-teal-400 px-4 py-2 text-sm text-teal-200 hover:bg-white hover:text-teal-700 transition"
+        onClick={() => onOpen(item)}
+      >
+        Read more
+      </button>
+    </div>
+  );
+}
+
+function NewsModal({ item, onClose }) {
+  if (!item) return null;
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+      <div className="absolute inset-0 bg-black/50" onClick={onClose} />
+      <div className="relative z-[101] w-full max-w-3xl rounded-3xl bg-white shadow-xl p-6 max-h-[85vh] overflow-y-auto">
+        <div className="flex items-start justify-between gap-6">
+          <div className="grow">
+            <h3 className="text-2xl font-semibold text-teal-800">{item.title}</h3>
+            <p className="mt-1 text-sm text-slate-600">
+              {new Date(item.date).toLocaleDateString()}
+            </p>
+          </div>
+          <button
+            className="rounded-full border px-3 py-1 text-sm hover:bg-slate-50 text-slate-700"
+            onClick={onClose}
+          >
+            Close
+          </button>
+        </div>
+
+        <hr className="my-4" />
+
+        {item.image ? (
+          <img
+            src={item.image}
+            alt={item.title}
+            className="w-full h-56 object-cover rounded-2xl mb-4"
+            onError={(e) => (e.currentTarget.style.display = "none")}
+          />
+        ) : null}
+
+        {item.summary && (
+          <p className="leading-7 text-slate-800">{item.summary}</p>
+        )}
+
+        {item.content && (
+          <pre className="mt-4 whitespace-pre-wrap leading-7 text-slate-800">
+            {item.content}
+          </pre>
+        )}
+
+        {item.link ? (
+          <a
+            href={item.link}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 inline-flex rounded-full border px-4 py-2 text-sm hover:bg-slate-50"
+          >
+            Open full article
+          </a>
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
+function NewsPage({ push, initialId }) {
+  const [active, setActive] = useState(
+    () => NEWS.find((n) => n.id === initialId) || null
+  );
+
+  const open = (n) => {
+    setActive(n);
+    push(`/news/${n.id}`);
+  };
+  const close = () => {
+    setActive(null);
+    push(`/news`);
+  };
+
+  useEffect(() => {
+    if (!initialId) return;
+    const fromUrl = NEWS.find((n) => n.id === initialId) || null;
+    setActive(fromUrl);
+  }, [initialId]);
+
+  return (
+    <div className="min-h-screen bg-[#0E2A36] text-white pb-16">
+      <div className="mx-auto max-w-7xl px-6 pt-28">
+        <div className="flex items-center justify-between">
+          <h2 className="text-5xl font-semibold text-teal-300">News</h2>
+          <button
+            onClick={() => push("/")}
+            className="rounded-full border border-white/30 px-4 py-2 text-sm hover:bg-white/10"
+          >
+            ← Back
+          </button>
+        </div>
+        <p className="mt-4 text-slate-200 max-w-3xl">
+          Latest updates, demos, events, and announcements.
+        </p>
+
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
+          {NEWS.map((n) => (
+            <NewsCard key={n.id} item={n} onOpen={open} />
+          ))}
+        </div>
+      </div>
+      <NewsModal item={active} onClose={close} />
+    </div>
+  );
+}
+
 
 // ---------- Roles Matrix (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) ----------
 function ProjectRolesMatrix({ onMemberClick }) {
@@ -735,6 +911,12 @@ export default function App() {
   if (path.startsWith("/members")) {
     return <MembersPage push={push} />;
   }
+  if (path.startsWith("/news")) {
+  const parts = path.split("/");
+  const initialId = parts[2]; // news id or undefined
+  return <NewsPage push={push} initialId={initialId} />;
+}
+
 
 const handleNavClick = (e, targetId) => {
   e.preventDefault();
@@ -827,7 +1009,7 @@ const handleNavClick = (e, targetId) => {
                 </div>
 
             </div>
-
+            <a href="#/news" className="hover:text-teal-700">News</a>        
             <a href="#vision" className="hover:text-teal-700" onClick={(e) => handleNavClick(e, "vision")}>Vision</a>
             <a href="#contact" className="hover:text-teal-700" onClick={(e) => handleNavClick(e, "contact")}>Contact</a>
             <a href="#/members" className="hover:text-teal-700">Members</a>
