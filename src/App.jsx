@@ -695,7 +695,7 @@ function NewsPage({ push, initialId }) {
           </button>
         </div>
         <p className="mt-4 text-slate-200 max-w-3xl">
-          Latest updates, demos, events, and announcements.
+          Latest demos, events, and announcements.
         </p>
 
         <div className="mt-10 grid gap-8 md:grid-cols-2">
