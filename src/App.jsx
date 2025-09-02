@@ -385,7 +385,7 @@ const NEWS = [
   {
   "id": "1",
   "title": "NC AAM/ UAS Center Kickoff Meeting Scheduled",
-  "date": "2025-09-12",
+  "date": "2025-09-13",
   "summary": "The official kickoff meeting for the NC AAM/UAS Center will be held in a hybrid format hosted by NCDOT Division of Aviation.",
   "content": "The NC AAM/UAS Center will host its official kickoff meeting in a hybrid format (in-person and virtual).\n\n**Date/Time:** September 12, 2025, from 1:00 – 3:00 PM\n\n**Location:**\nN.C. Department of Transportation – Division of Aviation\nRaleigh-Durham International Airport\n1050 Meridian Dr, Morrisville, NC 27560\nDivision of Aviation Conference Room",
   "link": "https://example.com/events/kickoff-meeting",
