@@ -383,22 +383,14 @@ const PROJECTS = [
 // ===================== NEWS DATA (for routes & modal) (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) =====================
 const NEWS = [
   {
-    id: "1",
-    title: "NC AAM/ UAS Center Announces Kickoff",
-    date: "2025-08-15",
-    summary:
-      "The UTCoE–AAM & UAS launched a statewide collaboration among NC A&T, NC State, ECSU, and NCDOT.",
-    content: `
-The Center officially kicked off with partners across North Carolina to advance Advanced Air Mobility (AAM) and Unmanned Aircraft Systems (UAS). The program focuses on multimodal integration, emergency response, safe eVTOL operations, and infrastructure/workforce development.
-
-Highlights:
-• Multi-campus research collaboration
-• Early stakeholder engagement
-• Foundations for statewide test & evaluation
-    `.trim(),
-    link: "https://example.com/press/kickoff",
-    image: "/news/kickoff.jpg", // optional (place in /public/news)
-  },
+  "id": "1",
+  "title": "NC AAM/ UAS Center Kickoff Meeting Scheduled",
+  "date": "2025-09-12",
+  "summary": "The official kickoff meeting for the NC AAM/UAS Center will be held in a hybrid format hosted by NCDOT Division of Aviation.",
+  "content": "The NC AAM/UAS Center will host its official kickoff meeting in a hybrid format (in-person and virtual).\n\n**Date/Time:** September 12, 2025, from 1:00 – 3:00 PM\n\n**Location:**\nN.C. Department of Transportation – Division of Aviation\nRaleigh-Durham International Airport\n1050 Meridian Dr, Morrisville, NC 27560\nDivision of Aviation Conference Room",
+  "link": "https://example.com/events/kickoff-meeting",
+  "image": "/news/kickoff-meeting.jpg"
+},
   {
     id: "2",
     title: "Demonstration: Drone Medical Delivery",
