@@ -391,30 +391,30 @@ const NEWS = [
   "link": "https://example.com/events/kickoff-meeting",
   "image": "/news/kickoff-meeting.jpg"
 },
-  {
-    id: "2",
-    title: "Demonstration: Drone Medical Delivery",
-    date: "2025-09-05",
-    summary:
-      "A field demo explored AED/medical kit delivery times vs. ground response in rural corridors.",
-    content: `
-Teams from NC State and ECSU demonstrated UAS medical delivery to evaluate response-time improvements in rural areas. Metrics included dispatch-to-arrival time, airspace coordination, and handoff protocols with EMS.
-    `.trim(),
-    link: "https://example.com/news/med-demo",
-    image: "/news/med-demo.jpg",
-  },
-  {
-    id: "3",
-    title: "Workshop: eVTOL Safety & Energy Modeling",
-    date: "2025-10-02",
-    summary:
-      "Researchers met with industry to align on safe navigation and energy demand models for regional eVTOL use cases.",
-    content: `
-The workshop covered model assumptions, datasets, and validation plans for safe & reliable eVTOL operations—feeding into regulatory and operational standards.
-    `.trim(),
-    link: "https://example.com/events/evtol-workshop",
-    image: "/news/workshop.jpg",
-  },
+//   {
+//     id: "2",
+//     title: "Demonstration: Drone Medical Delivery",
+//     date: "2025-09-05",
+//     summary:
+//       "A field demo explored AED/medical kit delivery times vs. ground response in rural corridors.",
+//     content: `
+// Teams from NC State and ECSU demonstrated UAS medical delivery to evaluate response-time improvements in rural areas. Metrics included dispatch-to-arrival time, airspace coordination, and handoff protocols with EMS.
+//     `.trim(),
+//     link: "https://example.com/news/med-demo",
+//     image: "/news/med-demo.jpg",
+//   },
+//   {
+//     id: "3",
+//     title: "Workshop: eVTOL Safety & Energy Modeling",
+//     date: "2025-10-02",
+//     summary:
+//       "Researchers met with industry to align on safe navigation and energy demand models for regional eVTOL use cases.",
+//     content: `
+// The workshop covered model assumptions, datasets, and validation plans for safe & reliable eVTOL operations—feeding into regulatory and operational standards.
+//     `.trim(),
+//     link: "https://example.com/events/evtol-workshop",
+//     image: "/news/workshop.jpg",
+//   },
 ];
 
 // ==== UI: Team card & modal use (Done By Reza Ahmari (Ph.D.) (Rahmari@aggies.ncat.edu) (Kooroshraf@gmail.com) (+13364935421)) ====
