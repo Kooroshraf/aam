@@ -656,16 +656,7 @@ function NewsModal({ item, onClose }) {
           </pre>
         )}
 
-        {item.link ? (
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-6 inline-flex rounded-full border px-4 py-2 text-sm hover:bg-slate-50"
-          >
-            Open full article
-          </a>
-        ) : null}
+        
       </div>
     </div>
   );
